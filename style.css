@@ -1,0 +1,330 @@
+.back1
+{
+background-color: black;
+color: ghostwhite;
+}
+.cl1
+{
+color:#FF004F;
+}
+
+/*NAV BAR CSS START HERE----------------------------------------------------------------------------------*/
+.grid-container1
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 15px;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+.items1
+{
+font-size: 50px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.items2
+{
+display: grid;
+grid-template-columns: auto auto auto auto auto;
+padding-top: 30px;
+margin-right: 150px;
+}
+.items2> div> a
+{
+text-decoration: none;
+color: ghostwhite;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 25px;
+position: relative;
+}
+.items2> div> a::after
+{
+content:"";
+position: absolute;
+background-color: #FF004F;
+height:3px;
+width:0;
+left:0;
+bottom:-10px;
+transition:0.3s;
+}
+.items2> div>a:hover::after
+{
+width:100%;
+}
+/*NAV BAR CSS START HERE--------------------------------------------------------*/
+/* HEADER MODULE CSS START HERE--------------------------------------------------*/
+.label1
+{
+font-size: 40px;
+padding-left: 180px;
+padding-right: 180px;
+padding-top: 300px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* HEADER MODULE CSS END HERE--------------------------------------------------*/
+
+/* DIFFERENT BACKGROUND start here -------------------- */
+.back2
+ {
+background-color: rgb(20,20,20);
+margin-top: 400px;
+}
+
+/* DIFFERENT BACKGROUND start here -------------------- */
+
+/* ABOUT CSS start here ------------------------------ */
+.about 
+{
+padding-left: 180px;
+padding-right: 180px;
+}
+
+.grid-container2 
+{
+display: grid;
+grid-template-columns: auto auto;
+column-gap: 80px;
+}
+.ig1 
+{
+height: 650px;
+width:400px;
+margin-top: 100px;
+border-radius: 80px;
+}
+.abt1 
+{
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 80px;
+    margin-bottom: 0px;
+}
+.abt2 
+{
+    margin-top: 0px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ABOUT CSS END here ---------------------------------- */
+
+/* Myservices CSS start here ---------------------------------- */
+.Myservices
+{
+padding-left: 180px;
+padding-right:180px;
+margin-bottom:200px;
+}
+.Myservices >p
+{
+margin-top:200px;
+font-size:80px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.grid-container3
+{
+display:grid;
+grid-template-columns:auto auto auto;
+column-gap:20px;
+}
+.card1
+{
+background-color:#262626;
+border-radius:10px;
+height:180px;
+width:400px;
+padding:20px;
+transition:background-color 0.5s,transform 0.5s;
+}
+.card1:hover
+{
+transform:translateY(-10px);
+background-color:#FF004F;
+}
+.mys1
+{
+font-size:30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-left:20px;
+}
+.mys2
+{
+font-size:15px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-left:20px;
+}
+.card1 >p >a
+{
+text-decoration:none;
+color:ghostwhite;
+margin-left:20px;
+}
+/* Myservices CSS end here ---------------------------------- */
+
+/* Mywork CSS start here ---------------------------------- */
+
+.Mywork
+{
+padding-left: 180px;
+padding-right:180px;
+margin-bottom:200px;
+}
+.Mywork >p
+{
+margin-top:100px;
+font-size:80px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.grid-container4
+{
+display: grid;
+grid-template-columns: auto auto auto;
+column-gap:20px;
+}
+.ig2
+{
+height: 550px;
+width:400px;
+margin-top: 100px;
+border-radius: 30px;
+}
+.ig3 
+{
+height: 550px;
+width:400px;
+margin-top: 100px;
+border-radius: 30px;
+}
+.ig4
+{
+height: 550px;
+width:400px;
+margin-top: 100px;
+border-radius: 30px;
+}
+.port2
+{
+margin-top:50px;
+text-align: center;
+font-size:20px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+width:200px;
+height:60px;
+padding:10px;
+border:1px solid #FF004F;
+border-radius:15px;
+margin-left:500px;
+}
+.port2:hover
+{
+background-color:#FF004F;
+}
+
+/* Mywork CSS end here ---------------------------------- */
+
+/* contact CSS start here-----------*/
+.contact 
+{
+padding-left:180px;
+padding-right:180px;
+}
+
+.grid-containers5 
+{
+display: grid;
+grid-template-columns: auto auto;
+}
+
+.items11 > .contact1 
+{
+font-size: 60px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.items11 > p 
+{
+margin-top: 30px;
+color: white;
+font-size: 20px;
+}
+
+.items11 > button 
+{
+background-color: #FF004F;
+padding:10px;
+width:200px;
+border-radius:10px;
+margin-top:100px;
+border:none;
+}
+
+.items11 > button > a 
+{
+text-decoration:none;
+color:white;
+}
+
+.items12 
+{
+margin-left:100px;
+margin-top:20px;
+}
+
+.items12 > form > div > input 
+{
+margin-top:30px;
+background-color:#262626;
+width:750px;
+height:50px;
+border:none;
+border-radius:10px;
+padding-left:20px;
+font-size:20px;
+color:white;
+}
+
+.items12 > form > div > textarea 
+{
+margin-top: 30px;
+background-color: #262626;
+width:750px;
+height: 200px;
+border: none;
+border-radius: 10px;
+padding-left: 20px;
+font-size: 20px;
+color: white;
+}
+.items12 > form > div > button 
+{
+background-color: #FF004F;
+padding: 10px;
+width: 180px;
+border-radius: 10px;
+margin-top: 60px;
+border: none;
+color: white;
+font-size: 20px;
+margin-bottom: 100px;
+}
+
+/* contact CSS end here-----------*/
+
+/* copyrights CSS start here-----------*/
+.copyrights 
+{
+background-color: #262626;
+height: 50px;
+text-align: center;
+padding-top:18px;
+font-size:18px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* copyrights CSS end here-----------*/
+
+
+
+
+
+
